@@ -1,0 +1,18 @@
+name: EllipticPlusPlus
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - eli5
+    - ipykernel
+    - ipython
+    - matplotlib
+    - networkx
+    - numpy==1.24.4
+    - pandas
+    - plotly
+    - seaborn
+    - scikit-learn
+    - xgboost
